@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Сжатие</title>
+  <link rel="stylesheet" href="./source/styles/fonts.css" />
+  <link rel="stylesheet" href="./source/styles/style.css" />
+  <script defer src="./source/scripts/main.js"></script>
+</head>
+
+<body scroll="no">
+  <div class="view-menu">
+    <div id="stage-start">
+      <img id="logo-button" class="logo" alt="Лого" />
+    </div>
+    <div id="stage-menu">
+      <div class="squeeze-wrapper">
+        <p class="squeeze-title">Текст</p>
+        <div class="squeeze-row">
+          <select id="lang">
+            <option value="js" selected>JavaScript</option>
+            <option value="css">CSS</option>
+          </select>
+          <br>
+          <textarea id="lang-text-input" placeholder="Введите текст" spellcheck="false"></textarea>
+          <textarea id="lang-text-result" placeholder="Результат" spellcheck="false" readonly></textarea>
+        </div>
+        <button id="lang-squeeze-btn">Сжать</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+{
+  "name": "squeeze",
+  "productName": "Squeeze",
+  "version": "1.0.0",
+  "description": "Simple offline squeeze",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "icon": "./src/source/images/icons/scs"
+      }
+    }
+  },
+  "keywords": [],
+  "author": {
+    "name": "Artur Shkadzinski",
+    "email": "real-xihnik@yandex.by"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "6.0.4",
+    "@electron-forge/maker-deb": "6.0.4",
+    "@electron-forge/maker-rpm": "6.0.4",
+    "@electron-forge/maker-squirrel": "6.0.4",
+    "@electron-forge/maker-zip": "6.0.4",
+    "electron": "22.0.3"
+  },
+  "dependencies": {
+    "@node-minify/clean-css": "8.0.5",
+    "@node-minify/core": "8.0.5",
+    "@node-minify/uglify-js": "8.0.5"
+  }
+}
